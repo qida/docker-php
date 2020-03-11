@@ -1,4 +1,4 @@
-FROM php:7.4-alpine
+FROM php:7.1-alpine
 LABEL maintainer="xaljer@outlook.com"
 RUN set -x \
   && apk --update --no-cache add wget bash \
